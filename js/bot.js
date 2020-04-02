@@ -100,11 +100,11 @@ botui.message.add({
 }).then(function (res) {
     let msg;
     if(res.value === 'mild'){
-        msg = 'Oh! Take care';
+        msg = 'Oh!  ';
         score +=7;
     }        
     else if(res.value === 'high'){
-        msg = 'Oh! Take Care'
+        msg = 'Oh!   '
         score+=15;
     }
     else if(res.value === 'no'){
@@ -141,7 +141,7 @@ botui.message.add({
 }).then(function (res) {
     let msg;
     if(res.value === 'yes'){
-        msg = 'Oh! Take care';
+        msg = 'Oh!   ';
         score +=5;
     }        
     else if(res.value === 'no'){
@@ -215,7 +215,7 @@ botui.message.add({
 }).then(function (res) {
     let msg;
     if(res.value === 'yes'){
-        msg = 'Oh! Take care';
+        msg = 'Oh!   ';
         score +=5;
     }        
     else if(res.value === 'no'){
@@ -252,7 +252,7 @@ botui.message.add({
 }).then(function (res) {
     let msg;
     if(res.value === 'yes'){
-        msg = 'Okay, you need to take care.';
+        msg = 'Okay, you need to take care of yourself.';
         score +=10;
     }        
     else if(res.value === 'no'){
@@ -289,7 +289,7 @@ botui.message.add({
 }).then(function (res) {
     let msg;
     if(res.value === 'yes'){
-        msg = 'Oh! Take care';
+        msg = 'Oh!   ';
         score +=10;
     }        
     else if(res.value === 'no'){
