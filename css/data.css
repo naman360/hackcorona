@@ -3,7 +3,10 @@ body{
     color: white;
     font-family: 'Gotu', sans-serif;
 
-
+}
+html, body {
+    overflow-x:hidden;
+    height:100%;
 }
 *{
     margin: 0;

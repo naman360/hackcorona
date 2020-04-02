@@ -101,7 +101,7 @@ botui.message.add({
     let msg;
     if(res.value === 'mild'){
         msg = 'Oh!  ';
-        score +=7;
+        score +=12;
     }        
     else if(res.value === 'high'){
         msg = 'Oh!   '
@@ -253,10 +253,11 @@ botui.message.add({
     let msg;
     if(res.value === 'yes'){
         msg = 'Okay, you need to take care of yourself.';
-        score +=10;
+        
     }        
     else if(res.value === 'no'){
-        msg = 'Okay, Go ahead! '
+        msg = 'Okay, Go ahead! ';
+        score +=10;
     }
 
 
@@ -334,7 +335,7 @@ return botui.action.button({
 
   document.getElementById('result').innerHTML = ` 
   <div class="jumbotron" style="font-family: 'Gotu', sans-serif; background-color: #202020; color:white; font-size:28px; text-align:center;">
-  Your score is ${perc}%<br>${msg}<br>
+  ${msg}<br>
   <a href="./index.html" class="btn btn-danger">Go Home</a>
   </div>`;
 });
