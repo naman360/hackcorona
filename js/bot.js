@@ -4,7 +4,7 @@ var botui = new BotUI('help-bot');
 let score = 0;
 
 botui.message.add({
-  delay: 500,
+  delay: 1000,
   loading: true,
   content: 'Hi! Welcome to the Corona Detector!'
 }).then(function () {
