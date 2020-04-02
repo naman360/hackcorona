@@ -5,7 +5,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Data</title>
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css">
-    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Gotu&display=swap">
+    <link href="https://fonts.googleapis.com/css2?family=Gotu&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="css/data.css">
     <link rel="stylesheet" href="css/nav.css">
 </head>
@@ -16,15 +16,15 @@
         <nav class="navbar navbar-inverse" id="myNavStyle">
             <div id="brand">
             <hr id="brandUnderline">
-            <h1>HACKCORONA</h1>
+            <h1>HackCorona</h1>
             <hr id="brandUnderline">
             </div>
             <!-- NAV BAR LINKS -->
             <ul id="styleLi" class="nav">
                 <li role="presentation" ><a href="./index.html">Home</a></li>
-                <li role="presentation"><a href="#">Stats</a></li>
-                <li role="presentation"><a href="#">Symptom Checker</a></li>
-                <li role="presentation"><a href="#">Team Info</a></li>
+                <li role="presentation"><a href="./data.html">Stats</a></li>
+                <li role="presentation"><a href="#">Corona Detector</a></li>
+                <li role="presentation"><a href="./team.html">Team Info</a></li>
             </ul>
         </nav>
 
@@ -41,7 +41,7 @@
             </div>
         
 
-            <div class="statewise" style="text-align: center; background-color: #27293d;">
+            <div class="statewise" style="text-align: center; background-color: #181818;">
 
                 <table>
                     <thead>
@@ -67,7 +67,7 @@
 
 
 <!--Doughnut chart for statewise result  -->
-        <div class="col-md-5" style="overflow-y: hidden; display: flex; justify-content: center; align-items: center;">
+        <div class="col-md-5 " style="overflow-y: hidden; display: flex; justify-content: center; align-items: center; background-color: #202020;">
             <canvas id="doughnut-chart" width="800" height="450"></canvas>
         </div>
 

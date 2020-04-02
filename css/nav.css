@@ -5,8 +5,8 @@
 #myNavStyle{
     margin: 6px auto;
     animation: head 2s 0s 1;
-    background-color: #1e1e2f;
-    margin-bottom: 60px;
+    background-color: rgb(29, 25, 25);
+    margin-bottom: 10px;
     border: none;
 }
 #brand{
@@ -17,10 +17,11 @@
     text-align: center;
     color: rgb(255, 255, 255);
     font-size: 35px;
-    font-weight: 600;
     letter-spacing: 2px;
     margin: 8px auto;
     font-family: 'Gotu', sans-serif;
+    font-weight: 600;
+    text-transform: uppercase;
 }
 #brandUnderline{
     width: 190px;
@@ -40,7 +41,8 @@
     margin: 4px 2px 8px 2px;
 }
 #styleLi li :hover{
-    background-color: #ff6363;
+    background-color: #ff5722;
+    border-radius: 3px;
 }
 #styleLi li a{
     color: white;
@@ -54,10 +56,88 @@
 @keyframes head{
     0%{
         opacity: 0;
-        transform: translate(0%, 100%);
+        transform: translate(0%, -100%);
     }
     100%{
         opacity: 1;
         transform: translate(0% 0%);
     }
 }
+
+
+/* ============================================= */
+/* ============  PRECAUTION BAR   ============== */
+/* ============================================= */
+
+#precautionStyle{
+    background-color: #ff004d;
+}
+.precautionFlex{
+    color: white;
+    display: flex;
+    justify-content: center;
+}
+.changeContent{
+    padding: 12px 0px;
+}
+.changeContent:after{
+    content: '';
+    /* Enter Precaution Bar Total Duration  */
+    animation: flow 15s infinite linear ;  
+    font-size: 1.5rem;
+}
+
+
+/* Enter Your Precautions Here */
+@keyframes flow{
+    0%, 100%{ 
+       content:"Help out the elderly by bringing them their groceries and other essentials.  "; 
+    }
+    10%{ 
+       content:"Stand Against FAKE News and WhatsApp Forwards! Do NOT ❌ forward a message until you verify the content it contains.  "; 
+    }
+    20%{ 
+       content:"Even the Virus Does not discriminate. Why do you? DO NOT DISCRIMINATE. WE are all Indians!  "; 
+    }
+    30%{ 
+       content: "Plan and calculate your essential needs for the next three weeks and get only what is bare minimum needed.  "; 
+    }
+    40%{
+       content: "Our brothers from the north east are just as Indian as you! Help everyone during this crisis ❤️  "; 
+    }
+    50%{
+        content: "If you have symptoms and suspect you have coronavirus - reach out to your doctor or call state helplines. 📞 Get help.  "; 
+    }
+    60%{
+        content: "Get in touch with your local NGO's and district administration to volunteer for this cause.  "; 
+    } 
+    70%{
+        content: "Plan ahead! Take a minute and check how much you have at home. Planning ahead let's you buy exactly what you need!  "; 
+    }
+    80%{
+        content: "Be considerate : While buying essentials remember : You need to share with 130 crore fellow citizens!  "; 
+    }
+    90%{
+        content: "Panic mode : OFF! ❌ ESSENTIALS ARE ON! ✔️  "; 
+    }
+}
+
+
+
+/* ============================================= */
+/* ============  HOME BAR   ============== */
+/* ============================================= */
+
+.cage{
+    background-color:rgb(66, 66, 66) ;
+    margin: 10px 0px;
+    border-radius: 8px;
+}
+.infoBox{
+    padding: 20px;
+}
+
+/* ============================================= */
+/* ============  PRECAUTION BAR   ============== */
+/* ============================================= */
+
