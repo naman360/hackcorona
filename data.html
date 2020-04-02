@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Data</title>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Gotu&display=swap">
+    <link rel="stylesheet" href="css/data.css">
+    <link rel="stylesheet" href="css/nav.css">
+</head>
+<body style="overflow-x: hidden;">
+
+
+        <!-- NAV BAR BRAND -->
+        <nav class="navbar navbar-inverse" id="myNavStyle">
+            <div id="brand">
+            <hr id="brandUnderline">
+            <h1>HACKCORONA</h1>
+            <hr id="brandUnderline">
+            </div>
+            <!-- NAV BAR LINKS -->
+            <ul id="styleLi" class="nav">
+                <li role="presentation" ><a href="./index.html">Home</a></li>
+                <li role="presentation"><a href="#">Stats</a></li>
+                <li role="presentation"><a href="#">Symptom Checker</a></li>
+                <li role="presentation"><a href="#">Team Info</a></li>
+            </ul>
+        </nav>
+
+
+
+<!-- Main Content -->
+
+
+    <div class="row">
+
+        <div class="col-md-2 total" style="display: flex; flex-direction: column; justify-content: center; align-items: center;">
+            
+            <div id="boxes" style="display: flex;">
+            </div>
+        
+
+            <div class="statewise" style="text-align: center; background-color: #27293d;">
+
+                <table>
+                    <thead>
+                       <tr>
+                         <th style="text-align: center; font-size: 20px; padding: 20px;">Statewise Stats</th>
+                      </tr>
+                    </thead>
+                    <!-- Rendering through API -->
+                    <tbody id="tabularData">
+                    </tbody>
+
+              </table>
+
+            </div>
+            
+        </div>
+
+
+<!-- Line chart for no. of cases -->
+        <div class="col-md-5" style="overflow-y: hidden;">
+            <canvas id="myChart" width="600" height="600"></canvas>
+        </div>
+
+
+<!--Doughnut chart for statewise result  -->
+        <div class="col-md-5" style="overflow-y: hidden; display: flex; justify-content: center; align-items: center;">
+            <canvas id="doughnut-chart" width="800" height="450"></canvas>
+        </div>
+
+    </div>
+
+
+
+
+    <!-- Scripts -->
+<script src="https://cdn.jsdelivr.net/npm/chart.js@2.9.3/dist/Chart.min.js"></script>
+<script src="./js/data.js"></script>
+<script src="./js/chart.js"></script>
+</body>
+</html>

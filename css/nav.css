@@ -1,0 +1,63 @@
+
+/* ============================================= */
+/* ====================NAV==================== */
+/* ============================================= */
+#myNavStyle{
+    margin: 6px auto;
+    animation: head 2s 0s 1;
+    background-color: #1e1e2f;
+    margin-bottom: 60px;
+    border: none;
+}
+#brand{
+    padding-top: 20px ;
+    margin-bottom: 15px;
+}
+#myNavStyle h1{
+    text-align: center;
+    color: rgb(255, 255, 255);
+    font-size: 35px;
+    font-weight: 600;
+    letter-spacing: 2px;
+    margin: 8px auto;
+    font-family: 'Gotu', sans-serif;
+}
+#brandUnderline{
+    width: 190px;
+    margin: auto;
+    height: 4px;
+    background-color: rgb(255, 255, 255);;
+    border-radius: 8px;
+}
+#styleLi{
+    display: flex;
+    margin-top: 4px;
+    justify-content: space-around;
+}
+#styleLi li{
+    background-color: rgb(66, 66, 66);
+    border-radius: 3px;
+    margin: 4px 2px 8px 2px;
+}
+#styleLi li :hover{
+    background-color: #ff6363;
+}
+#styleLi li a{
+    color: white;
+    text-align: center;
+}
+@media (min-width:990px){
+    #styleLi li a{
+        padding: 6px 80px;
+    }
+}
+@keyframes head{
+    0%{
+        opacity: 0;
+        transform: translate(0%, 100%);
+    }
+    100%{
+        opacity: 1;
+        transform: translate(0% 0%);
+    }
+}
