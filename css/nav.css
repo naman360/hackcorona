@@ -2,12 +2,17 @@
 /* ============================================= */
 /* ====================NAV==================== */
 /* ============================================= */
+html, body {
+    overflow-y:hidden;
+    height:100%;
+}
 #myNavStyle{
     margin: 6px auto;
     animation: head 2s 0s 1;
     background-color: rgb(29, 25, 25);
     margin-bottom: 10px;
     border: none;
+    
 }
 #brand{
     padding-top: 20px ;

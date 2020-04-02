@@ -1,7 +1,10 @@
 html, body {
     background-color: rgb(29, 26, 26);
   }
-
+html, body {
+    overflow-y:hidden;
+    height:100%;
+}
   /* ScrollBar */
 
 /* width */
