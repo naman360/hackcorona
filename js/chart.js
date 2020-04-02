@@ -35,12 +35,12 @@ let others = data.statewise[0].confirmed-data.statewise[1].confirmed-data.statew
 new Chart(document.getElementById("doughnut-chart"), {
     type: 'doughnut',
     data: {
-      labels: ["Maharashtra", "Kerala", "Uttar Pradesh", "Telangana", "Others"],
+      labels: [data.statewise[1].state, data.statewise[2].state, data.statewise[3].state, data.statewise[4].state, "Others"],
       datasets: [
         {
           label: "Confirmed cases",
           backgroundColor: ["#3e95cd", "#8e5ea2","#3cba9f","#e8c3b9","#c45850"],
-          data: [data.statewise[1].confirmed,data.statewise[2].confirmed,data.statewise[5].confirmed,data.statewise[8].confirmed,others]
+          data: [data.statewise[1].confirmed,data.statewise[2].confirmed,data.statewise[3].confirmed,data.statewise[4].confirmed,others]
         }
       ]
     },

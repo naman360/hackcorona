@@ -1,0 +1,76 @@
+html, body {
+    background-color: rgb(29, 26, 26);
+  }
+
+  /* ScrollBar */
+
+/* width */
+::-webkit-scrollbar {
+    width: 5px;
+}
+
+/* Track */
+::-webkit-scrollbar-track {
+    box-shadow: inset 0 0 5px grey; 
+    border-radius: 10px;
+}
+
+/* Handle */
+::-webkit-scrollbar-thumb {
+    background: #0000001f; 
+    border-radius: 10px;
+}
+
+/* Handle on hover */
+::-webkit-scrollbar-thumb:hover {
+    background: #7f8197; 
+}
+
+  .botui-container {
+    background-color: inherit;
+    position:fixed;
+    height: 100%;
+    padding: 0px;
+    left: 0;
+    overflow: auto;
+  }
+
+  .botui-messages-container {
+  }
+
+  .botui-actions-container {
+    padding: 0px 30px;
+  }
+
+  .botui-message {
+  }
+
+  .botui-message-content.text {
+    background-color: #e1fafc;
+    color: #404040;
+  }
+
+  .botui-message-content.human {
+    background-color: #f7ff61;
+    color: #404040;
+  }
+
+  .botui-message-content.embed {
+  }
+
+  .botui-message-content-link {
+  }
+
+  .botui-actions-text-input {
+  }
+
+  .botui-actions-text-submit {
+  }
+
+  button.botui-actions-buttons-button {
+    margin-top: 0px;
+  }
+
+  #result{
+      display: none;
+  }
