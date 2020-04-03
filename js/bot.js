@@ -323,7 +323,6 @@ return botui.action.button({
 }).then(() =>{
   document.getElementById('result').style.display = 'block';
   document.getElementById('help-bot').style.display = 'none';
-  document.getElementById('phone').style.display = 'none';
   let perc = score*100/80;
   let msg='';
 

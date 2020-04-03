@@ -29,11 +29,14 @@ html, body {
     background: #7f8197; 
 }
 
-  .botui-container {
-    background-color: inherit;
-    padding: 0px;
-    overflow: auto;
-  }
+.botui-container {
+  background-color: inherit;
+  position:fixed;
+  height: 100%;
+  padding: 0px;
+  left: 0;
+  overflow: auto;
+}
 
   .botui-messages-container {
   }
@@ -70,4 +73,7 @@ html, body {
   button.botui-actions-buttons-button {
     margin-top: 0px;
   }
- 
+
+  #result{
+      display: none;
+  }
