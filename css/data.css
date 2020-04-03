@@ -5,11 +5,7 @@ body{
 
 }
 html, body {
-<<<<<<< HEAD
     overflow-x:hidden;
-=======
-    overflow-y:hidden;
->>>>>>> 6865c5016ea44adefcd5321c275a93dc1c0c471c
     height:100%;
 }
 *{
