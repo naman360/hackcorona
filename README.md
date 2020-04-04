@@ -1,6 +1,7 @@
 # HackCorona
 # About
 This web application is made using front-end technologies like - HTML, CSS, Bootstrap and Vanilla JavaScript and also user certain libraries  of Javascript like ChartsJs and BotUI Framework.<br>
+Working video is linked <a href="https://drive.google.com/file/d/1YyCgEBd_6CCg-PnfX-YTui_L0tjFsovs/view?usp=sharing" tagret="_blank">here</a>
 # Motive
 We made this app as many people would be unaware about Coronavirus pandemic and  its symptoms. So our app tells you about it , its symptoms. It shows you real-time statistics and charts of number of increasing cases and active cases and most importantly it <b>predicts</b> wheather there is a chance of you being corona positive using a chatbot.
 You just need to select the option provided by the chatbot and it will tell you about the result.
