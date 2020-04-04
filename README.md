@@ -1,4 +1,4 @@
-# hackcorona
+# HackCorona
 # About
 This web application is made using front-end technologies like - HTML, CSS, Bootstrap and Vanilla JavaScript and also user certain libraries  of Javascript like ChartsJs and BotUI Framework.<br>
 # Motive
