@@ -1,4 +1,4 @@
-# HackCorona
+# GoKaruna
 # About
 This web application is made using front-end technologies like - HTML, CSS, Bootstrap and Vanilla JavaScript and also user certain libraries  of Javascript like ChartsJs and BotUI Framework.<br>
 Working video is linked <a href="https://drive.google.com/file/d/1YyCgEBd_6CCg-PnfX-YTui_L0tjFsovs/view?usp=sharing" tagret="_blank">here</a>
