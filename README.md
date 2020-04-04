@@ -6,7 +6,7 @@ We made this app as many people would be unaware about Coronavirus pandemic and 
 You just need to select the option provided by the chatbot and it will tell you about the result.
 
 # Usage
-1). Clone the repo using <code>git clone https://github.com/naman360/hackcorona.git</code>.
+1). Clone the repo using <code>git clone https://github.com/naman360/hackcorona.git</code>.<br>
 2). Open <code>index.html</code> to view the application.
 # Team
 Team name :- GoKarunaKarungaGo<br>
