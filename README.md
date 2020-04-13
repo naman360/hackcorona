@@ -8,9 +8,9 @@ You just need to select the option provided by the chatbot and it will tell you 
 
 # Usage
 1). Clone the repo using <code>git clone https://github.com/naman360/hackcorona.git</code>.<br>
-2). <code>cd hackcorona</code>
-3). For VS Code, run <code>code .</code> to open the current folder in VS code.
-4). Install live server and open <code>index.html</code> using it.
+2). <code>cd hackcorona</code><br>
+3). For VS Code, run <code>code .</code> to open the current folder in VS code.<br>
+4). Install live server and open <code>index.html</code> using it.<br>
 # Team
 Team name :- GoKarunaKarungaGo<br>
 Team members :-
